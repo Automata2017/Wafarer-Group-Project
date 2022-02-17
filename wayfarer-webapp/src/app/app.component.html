@@ -1,6 +1,14 @@
 <app-search-bar></app-search-bar>
 <router-outlet></router-outlet>
 
+<!-- added city link below via router link -->
+<span class="logo" routerLink="/cities"></span>
+
+<!-- <li *ngFor="let city of cities"> -->
+  <!-- <a routerLink="/city/{{city.id}}">{{city.post}}</a> -->
+<!-- </li> -->
+
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -83,3 +91,5 @@
   <h2>Topic</h2> 
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi, consequatur corporis cupiditate debitis, doloribus ex id in iste laboriosam nostrum obcaecati officia provident quidem saepe sed veritatis! Hic, quasi.
   </div>
+
+  <router-outlet></router-outlet>
