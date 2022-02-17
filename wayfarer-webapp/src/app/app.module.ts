@@ -16,6 +16,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import { HomeComponent } from './components/home/home.component';
+import { CitiesComponent } from './components/cities/cities.component';
 
 
 
@@ -27,7 +28,8 @@ import { HomeComponent } from './components/home/home.component';
     AppComponent,
    // CitiesComponent,
     SearchBarComponent,
-    HomeComponent
+    HomeComponent,
+    CitiesComponent
   ],
   imports: [
     BrowserModule,
