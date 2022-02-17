@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  BASE_URL: 'https://google-flights-search.p.rapidapi.com'
+  //BASE_URL: 'https://google-flights-search.p.rapidapi.com'
 };
 
 /*
