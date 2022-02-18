@@ -1,6 +1,16 @@
+
+
 <app-search-bar></app-search-bar>
 <router-outlet></router-outlet>
 
+<span class="logo" routerLink="/cities"></span>
+
+
+<ul>
+<li *ngFor="let post of posts">
+  <a routerLink="/cities/{{post.id}}">{{post.title}}</a>
+  </li>
+</ul>
 
 
 <!-- <h1>Pure CSS slider</h1><pre>(with Autoplay at the beginning)</pre><br> -->
@@ -34,15 +44,6 @@
 
 
 
-
-<span class="logo" routerLink="/cities"></span>
-
-<!-- <li *ngFor="let city of cities"> -->
-  <!-- <a routerLink="/city/{{city.id}}">{{city.post}}</a> -->
-<!-- </li> -->
-
-
-
 <style>
   .newspaper {
     column-count: 3;
@@ -70,4 +71,4 @@
   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi, consequatur corporis cupiditate debitis, doloribus ex id in iste laboriosam nostrum obcaecati officia provident quidem saepe sed veritatis! Hic, quasi.
   </div>
 
-  <router-outlet></router-outlet>
+<router-outlet></router-outlet>
