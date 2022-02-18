@@ -5,12 +5,14 @@
 
 <span class="logo" routerLink="/cities"></span>
 
-
 <ul>
 <li *ngFor="let post of posts">
   <a routerLink="/cities/{{post.id}}">{{post.title}}</a>
   </li>
 </ul>
+
+<!-- images array for city -->
+<app-posts *ngFor="let img of imagesArr"></app-posts>
 
 <span class="logo" routerLink="/cities"></span>
 
