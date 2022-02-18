@@ -13,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SearchBarComponent } from './components/search-bar/search-bar.component';
 import { HomeComponent } from './components/home/home.component';
 import { CitiesComponent } from './components/cities/cities.component';
+import { PostsComponent } from './posts/posts.component';
 
 
 
@@ -24,7 +25,8 @@ import { CitiesComponent } from './components/cities/cities.component';
     AppComponent,
     SearchBarComponent,
     HomeComponent,
-    CitiesComponent
+    CitiesComponent,
+    PostsComponent
   ],
   imports: [
     BrowserModule,
