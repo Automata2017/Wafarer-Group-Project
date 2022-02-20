@@ -1,35 +1,22 @@
 
-
 <app-search-bar></app-search-bar>
-<router-outlet></router-outlet>
+<router-outlet></router-outlet>  
 
 
-<span class="logo" routerLink="/cities"></span>
+<span class="logo" routerLink="/cities"></span> 
 
+<div *ngIf="isCityRoute()">
 <div class="container">
   <div class="row">
-    <div class="col-3" style="border:1px solid black;">
-
-<ul>
-<li *ngFor="let post of posts">
-  <a routerLink="/cities/{{post.id}}">{{post.title}}</a>
-  </li>
-</ul>
-
-<!-- images array for city -->
-<app-posts *ngFor="let img of imagesArr"></app-posts>
-
-<span class="logo" routerLink="/cities"></span>
-
-</div>
+    <div class="col-3" style="border: 2px solid black">
+      <ul>
+        <li *ngFor="let post of posts">
+          <a routerLink="/cities/{{ post.id }}">{{ post.title }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
 </div>
 
-<!-- <li *ngFor="let city of cities"> -->
-  <!-- <a routerLink="/city/{{city.id}}">{{city.post}}</a> -->
-<!-- </li> -->
-
-
-
-  <router-outlet></router-outlet>
-
+<router-outlet></router-outlet>  
