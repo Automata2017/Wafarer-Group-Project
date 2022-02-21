@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { POSTS } from './posts/posts';
 import { Router } from '@angular/router';
+// import { ReactiveFormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -11,8 +12,9 @@ import { Router } from '@angular/router';
 
 export class AppComponent implements OnInit  {
   posts = POSTS;
+  
 
-  constructor(private router: Router) {}
+  constructor(private router: Router,) {}
 
   ngOnInit() {}
 
