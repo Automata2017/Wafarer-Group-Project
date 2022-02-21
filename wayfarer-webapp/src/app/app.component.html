@@ -2,11 +2,11 @@
 <router-outlet></router-outlet>
 
 <span class="logo" routerLink="/cities"></span>
-
 <div *ngIf="isCityRoute()">
   <div class="container">
     <div class="row">
-      <div class="col-3" style="border: 2px solid black">
+      <div class="col-6" style="border: 2px solid black">
+        <div class="cities">
         <ul>
           <li *ngFor="let post of posts">
             <a routerLink="/cities/{{ post.id }}">{{ post.title }}</a>
@@ -14,13 +14,11 @@
         </ul>
       </div>
     </div>
-  </div>
-</div>
+    
 
-<div *ngIf="isCityRoute()">
-  <div class="container">
-    <div class="row">
-      <div class="col-3" style="border: 2px solid black">
+
+
+      <div class="col-6" style="border: 2px solid black">
         <app-post-form></app-post-form>
       </div>
     </div>
