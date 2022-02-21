@@ -12,16 +12,18 @@
 <dl>
   <div class="container">
     <div class="row">
+
+      
       <a routerLink="/cities/{{ post.id }}"></a>
+      
+      <h1>Posts: {{ post.title }}</h1>
 
-      <h2>Posts: {{ post.title }}</h2>
-
-      <div class="col-3" style="border: 2px solid black">
+      <div class="col-6" style="border: 2px solid black">
         <a routerLink="/cities/{{ post.Post1 }}">{{ post.postone }}</a>
         <dd>{{ post.Post1 }}</dd>
       </div>
 
-      <div class="col-3" style="border: 2px solid black">
+      <div class="col-6" style="border: 2px solid black">
         <a routerLink="/cities/{{ post.Post1 }}">{{ post.posttwo }}</a>
         <dd>{{ post.Post2 }}</dd>
       </div>
