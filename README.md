@@ -18,4 +18,5 @@ ___________________
 
 
 ## Dependencies Installed
-![Angular dependencies Wayfarer](https://user-images.githubusercontent.com/94870846/155184574-397cf9ee-46c9-4d95-aa15-aa16bc822be8.png)
+![Ang depen](https://user-images.githubusercontent.com/94870846/155186122-575fa37a-25d9-4f0b-99ac-f6670d1bc273.png)
+
