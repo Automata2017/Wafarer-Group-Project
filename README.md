@@ -2,6 +2,9 @@
 We have been commissioned to build a travel community, code-named Project Wayfarer for now, for users to share tips (AKA posts) about their favorite locations around the world. A travel community for users to share city-specific tips ("posts" or "logs") about their favorite locations around the world.
 
 ![2022-02-22 13 05 41](https://user-images.githubusercontent.com/15316862/155202097-b3ab755b-9942-46b3-a281-d81bc004aa11.gif)
+![2022-02-22 13 25 59](https://user-images.githubusercontent.com/15316862/155204362-dc9ef0ee-5b11-4eed-b8e1-3da3151905c3.gif)
+![2022-02-22 13 28 29](https://user-images.githubusercontent.com/15316862/155204784-b64b1954-4949-4097-b5a2-9f2c8d1855b9.gif)
+
 
 
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/onbc1WC1uKlYWQhrd8" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/alaskaairlines-flight-attendant-alaska-airlines-safety-dance-onbc1WC1uKlYWQhrd8">via GIPHY</a></p>
@@ -61,5 +64,9 @@ ___________________
 ## Future, Unsolved Problems, and Major Hurdles 
 ---
 
-????
+![2022-02-22 13 21 26](https://user-images.githubusercontent.com/15316862/155203632-1589051e-e638-4c59-b171-95950bfa843a.gif)
+
+
+
+
 
