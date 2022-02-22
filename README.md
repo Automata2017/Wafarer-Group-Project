@@ -14,25 +14,25 @@ We have been commissioned to build a travel community, code-named Project Wayfar
 
 - [x] ~As a user, See the site-wide header on every page with a link to home page with list of cities.~
 
-- [x] As a user, View the "San Francisco" page (at "/cities/1") including:
-  - [x] The site-wide header.
-  - [x] The name of the city.
-  - [x] An iconic photo of the city.
+- [x] ~As a user, View the "San Francisco" page (at "/cities/1") including:~
+  - [x] ~The site-wide header.~
+  - [x] ~The name of the city.~
+  - [x] ~An iconic photo of the city.~
 
 - [x] As a user, View a list of posts on the San Francisco page:
   - [ ] Sorted by newest first.
-  - [x] With the post titles linked to the individual post "show" pages.
+  - [x] ~With the post titles linked to the individual post "show" pages.~
 
-- [x] As a user, Use the search bar to search through the posts' title and/or content.
+- [x] ~As a user, Use the search bar to search through the posts' title and/or content.~
 
-- [x] As a user, Click on the title of one of their posts and be redirected to a "show" page for that post.
+- [x] ~As a user, Click on the title of one of their posts and be redirected to a "show" page for that post.~
 
-- [x] As a user, View post "show" pages with title, author, and content.
+- [x] ~As a user, View post "show" pages with title, author, and content.~
 
-- [x] Validations 
-  - [x] View city pages for "London" and "Gibraltar".
-  - [x] A post's title must be between 1 and 200 characters.
-  - [x] A post's content must not be empty.
+- [x] ~Validations~
+  - [x] ~View city pages for "London" and "Gibraltar".~
+  - [x] ~A post's title must be between 1 and 200 characters.~
+  - [x] ~A post's content must not be empty.~
 
 
 - [ ] Weather API
