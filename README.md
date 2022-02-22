@@ -1,6 +1,9 @@
 # Wayfarer-Group-Project
 We have been commissioned to build a travel community, code-named Project Wayfarer for now, for users to share tips (AKA posts) about their favorite locations around the world. A travel community for users to share city-specific tips ("posts" or "logs") about their favorite locations around the world.
 
+![2022-02-22 13 05 41](https://user-images.githubusercontent.com/15316862/155202097-b3ab755b-9942-46b3-a281-d81bc004aa11.gif)
+
+
 <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/onbc1WC1uKlYWQhrd8" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/alaskaairlines-flight-attendant-alaska-airlines-safety-dance-onbc1WC1uKlYWQhrd8">via GIPHY</a></p>
 
 
@@ -42,7 +45,9 @@ We have been commissioned to build a travel community, code-named Project Wayfar
 - angular 2+
 - kanban board
 - ng2-search-filter
-- ??
+- bootstrap
+- typescript
+- sass
 
 
 ## Milestones
@@ -57,3 +62,4 @@ ___________________
 ---
 
 ????
+
