@@ -53,6 +53,9 @@ We have been commissioned to build a travel community, code-named Project Wayfar
 - sass
 
 
+![2022-02-22 13 32 39](https://user-images.githubusercontent.com/15316862/155205482-77d79c82-8b17-4554-8ed0-836144dd3127.gif)
+
+
 ## Milestones
 ___________________
 
