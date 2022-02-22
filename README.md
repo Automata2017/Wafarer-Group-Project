@@ -54,10 +54,6 @@ We have been commissioned to build a travel community, code-named Project Wayfar
 ![2022-02-22 13 32 39](https://user-images.githubusercontent.com/15316862/155205482-77d79c82-8b17-4554-8ed0-836144dd3127.gif)
 
 
-## Milestones
-___________________
-
-
 
 ## Dependencies Installed
 ![Ang depen](https://user-images.githubusercontent.com/94870846/155186122-575fa37a-25d9-4f0b-99ac-f6670d1bc273.png)
