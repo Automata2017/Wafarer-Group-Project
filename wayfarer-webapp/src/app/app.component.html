@@ -11,17 +11,19 @@
           <li *ngFor="let post of posts">
             <a routerLink="/cities/{{ post.id }}">{{ post.title }}</a>
           </li>
+          
         </ul>
 
-        <a href="https://weather.com/" class="button">Weather App</a>
+    
       </div>
     </div>
     
 
 
 
-      <div class="col-6" style="border: 2px solid black">
+    <div class="col-6" style="border: 2px solid black">
         <app-post-form></app-post-form>
+      
       </div>
     </div>
   </div>
