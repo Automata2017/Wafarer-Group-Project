@@ -21,14 +21,15 @@ export class AppComponent implements OnInit  {
   isCityRoute() {
     return this.router.url === '/cities';
   }
+
+
+
+
+
 }
 
 
 
 
-
-
-//  imagesArr: string[] = Array().fill("../../assets/images/passport.jpg")
-
-
+  //  imagesArr: string[] = Array().fill("../../assets/images/passport.jpg")
 

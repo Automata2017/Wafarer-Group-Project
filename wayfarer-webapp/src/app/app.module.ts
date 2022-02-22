@@ -16,6 +16,13 @@ import { CitiesComponent } from './components/cities/cities.component';
 import { PostsComponent } from './posts/posts.component';
 import { PostFormComponent } from './post-form/post-form.component';
 
+
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+
+
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,6 +40,7 @@ import { PostFormComponent } from './post-form/post-form.component';
     FormsModule,
     ReactiveFormsModule,
     CommonModule,
+    Ng2SearchPipeModule,
     //GaugeModule.forRoot(),
   ],
   providers: [],

@@ -11,6 +11,8 @@
   
 <dl>
   <div class="container">
+    <div class="row" >
+      <a routerLink="/cities/{{ post.id }}" ></a>
     <div class="row">
 
       
@@ -30,3 +32,34 @@
     </div>
   </div>
 </dl>
+
+<div class="col-md-12">
+
+<h2></h2><hr>
+<div class="row">
+  <div class="col-md-12">
+
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Search</label>
+        <input type="text" [(ngModel)]="term" name="term" class="form-control" placeholder="Search">
+        
+      </div>
+      </form>
+
+<div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start " *ngFor="let item of userRecords | filter: term ">
+    <div class="d-flex w-100 justify-content-between">
+      <h1 class="mb-1">{{ item.title }}</h1>
+      <!-- <small>Id: {{ item.id }}</small> -->
+    </div>
+    <p class="mb-1">{{  item.Post1 }}</p>
+    <br>
+    <p class="mb-1">{{  item.Post2 }}</p>
+    <!-- <small>Donec id elit non mi porta.</small> -->
+   </a>
+  
+</div>
+</div>
+</div> 
+
