@@ -8,58 +8,61 @@
   <img src="../../assets/images/seattle.jpg" alt="Seattle city view image" />
 </div>
 
-  
-<!-- <dl> -->
-  <div class="container">
-    <div class="row" >
-      <a routerLink="/cities/{{ post.id }}" ></a>
+<div class="container">
+  <div class="row">
+    <a routerLink="/cities/{{ post.id }}"></a>
     <div class="row">
-
-      
       <a routerLink="/cities/{{ post.id }}"></a>
-      
+
       <h1>Posts: {{ post.title }}</h1>
 
       <div class="col-6" style="border: 2px solid black">
-        <a routerLink="/cities/{{ post.Post1 }}">{{ post.postone }}</a>
+        <h3>Post 1</h3>
+        <a routerLink="/cities/{{ post.Post1 }}"></a>
         <dd>{{ post.Post1 }}</dd>
       </div>
 
       <div class="col-6" style="border: 2px solid black">
-        <a routerLink="/cities/{{ post.Post1 }}">{{ post.posttwo }}</a>
+        <h3>Post 2</h3>
+        <a routerLink="/cities/{{ post.Post1 }}"></a>
         <dd>{{ post.Post2 }}</dd>
       </div>
     </div>
   </div>
-<!-- </dl> -->
 
-<div class="col-md-12">
-
-<h2></h2><hr>
-<div class="row">
   <div class="col-md-12">
+    <h2></h2>
+    <hr />
+    <div class="row">
+      <div class="col-md-12">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Search</label>
+            <input
+              type="text"
+              [(ngModel)]="term"
+              name="term"
+              class="form-control"
+              placeholder="Type city name here"
+            />
+          </div>
+        </form>
 
-    <form>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Search</label>
-        <input type="text" [(ngModel)]="term" name="term" class="form-control" placeholder="Type city name here">
-        
+        <div class="list-group">
+          <a
+            href="#"
+            class="list-group-item list-group-item-action flex-column align-items-start"
+            *ngFor="let item of userRecords | filter: term"
+          >
+            <div class="d-flex w-100 justify-content-between">
+              <h1 class="mb-1">{{ item.title }}</h1>
+            </div>
+            <p class="mb-1">{{ item.Post1 }}</p>
+            <br />
+            <p class="mb-1">{{ item.Post2 }}</p>
+          </a>
+        </div>
       </div>
-      </form>
-
-<div class="list-group">
-  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start " *ngFor="let item of userRecords | filter: term ">
-    <div class="d-flex w-100 justify-content-between">
-      <h1 class="mb-1">{{ item.title }}</h1>
-      <!-- <small>Id: {{ item.id }}</small> -->
     </div>
-    <p class="mb-1">{{  item.Post1 }}</p>
-    <br>
-    <p class="mb-1">{{  item.Post2 }}</p>
-    <!-- <small>Donec id elit non mi porta.</small> -->
-   </a>
-  
+  </div>
 </div>
-</div>
-</div> 
-

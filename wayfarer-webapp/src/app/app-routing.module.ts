@@ -3,7 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { CitiesComponent } from './components/cities/cities.component';
 import { PostsComponent } from './posts/posts.component';
-// import { SearchBarComponent } from './components/search-bar/search-bar.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },

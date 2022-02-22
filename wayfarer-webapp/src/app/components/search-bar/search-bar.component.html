@@ -1,21 +1,18 @@
 <div class="search-container">
-    <form class="search-form" #form="ngForm" (ngSubmit)="onSubmit(form)">
-        <span class="logo" routerLink="/">Wayfarer</span>
-        <span class="logo" routerLink="/cities">Cities</span>
-        
-        <input
-            class="search-input"
-            name="search"
-            nomad
-            placeholder="Search" 
-            [(ngModel)]="filterTerm"
+  <form class="search-form" #form="ngForm" (ngSubmit)="onSubmit(form)">
+    <span class="logo" routerLink="/">Wayfarer</span>
+    <span class="logo" routerLink="/cities">Cities</span>
 
-            />
-            <button class="search-button" [(ngModel)]="filterTerm">Search</button>
-    </form>
-    <a href="https://weather.com/" class="button">Weather App</a>
-   
+    <input
+      class="search-input"
+      name="search"
+      nomad
+      placeholder="Search"
+      [(ngModel)]="filterTerm"
+    />
+    <button class="search-button" [(ngModel)]="filterTerm">Search</button>
+  </form>
+  <a href="https://weather.com/" class="button">Weather App</a>
 </div>
-
 
 <router-outlet></router-outlet>
